@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: darkseagreen;
+}
+
+#app{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 29, 29);
+}
+
+div{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+}
+
+h1{
+  color: aliceblue;
+  font-size: 3vw;
+}
+
+button{
+  width: 20vw;
+  height: 5vh;
+  border: 2px solid rgb(114, 194, 170); 
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5%;
+  font-size: 2vh;
+}
+
